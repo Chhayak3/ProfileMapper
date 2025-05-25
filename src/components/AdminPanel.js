@@ -17,7 +17,7 @@ function AdminPanel({ profiles, setProfiles }) {
   };
 
   const handleAdd = () => {
-    // Basic validation
+    
     if (!form.name || !form.title || !form.location || !form.email || !form.image) {
       alert("Please fill all required fields.");
       return;
@@ -37,7 +37,7 @@ function AdminPanel({ profiles, setProfiles }) {
 
     setProfiles([...profiles, newProfile]);
 
-    // Clear form
+    
     setForm({
       name: '',
       title: '',
