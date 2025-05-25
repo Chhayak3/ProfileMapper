@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  color: inherit;       
+  text-decoration: none; 
+}
+
+.card-link:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+.admin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd; 
+}
+
+ul li strong {
+  margin-right: 8px;
+}
+
+ul li button {
+  background-color: #d9534f; 
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+ul li button:hover {
+  background-color: #c9302c;
+}
+
+
+
